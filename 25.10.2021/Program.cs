@@ -98,29 +98,20 @@ namespace _25._10._2021
                     for (int i = 2; i < n; i++)
                     {
                         while (n%i!=0)
-                        {
-                            if (n % i == 0)
-                            {
+                        { 
                                 for (int j = 1; j <= i; j++)
                                 {
                                     if ((i % j == i) && (i % j == 1))
                                     {
                                         count++;
-                                        break;
+                                        
                                     }
                                 }
-                            }
-                            
                         }
+                        
                         Console.WriteLine("Count=" + count);
                         break;
-                    }
-                        
-                    //if (count == 2)
-                    //{
-                    //    Console.WriteLine("Count=" + count);
-                    //    break;
-                    //}
+                    }          
                 }
                 catch (Exception)
                 {

@@ -107,8 +107,7 @@ namespace _25._10._2021
                                         
                                     }
                                 }
-                        }
-                        
+                        }                     
                         Console.WriteLine("Count=" + count);
                         break;
                     }          
